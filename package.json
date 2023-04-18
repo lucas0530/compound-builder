@@ -1,0 +1,29 @@
+{
+  "name": "compound-builder",
+  "version": "1.0.0",
+  "description": "Easy-to-use compound builder.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KZ-Lucas/compound-builder.git"
+  },
+  "author": "KZ-Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KZ-Lucas/compound-builder/issues"
+  },
+  "homepage": "https://github.com/KZ-Lucas/compound-builder#readme",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "@types/react": "^18.0.37",
+    "react": "^18.2.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
