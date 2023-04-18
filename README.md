@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/KZ-Lucas/compound-builder/master/logo/logo.png" alt="compound-builder logo" width="300" />
-</p>
+</p> -->
 
 # compound-builder
 
@@ -12,8 +12,14 @@
 
 <!-- <a href="https://codecov.io/gh/KZ-Lucas/compound-builder/branch/master"><img alt="Coverage Status" src="https://img.shields.io/codecov/c/github/KZ-Lucas/compound-builder/master.svg?style=flat-square"></a> -->
 
-You can build compound components with declarative code.
 It's small but powerful.
+You can build compound components with declarative code.
+
+Also, it supports type safety as shown in the picture below.
+
+<p align="center">
+  <img src="https://postfiles.pstatic.net/MjAyMzA0MThfMjM1/MDAxNjgxODI5NTM0Mzk0.xDb02_hul7RR9OLRJ8fn9sfnCa1O2YoEWo_LSIGhm0sg.bhWtPajWXNfKMdwTVkyoQLVQ2HIjFIh3CzB0dcdvtZYg.GIF.qq3884qq/ezgif-4-8b3e61defe.gif?type=w773" alt="compound-builder is typesafe" width="600" />
+</p>
 
 <br>
 
