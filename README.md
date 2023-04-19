@@ -18,7 +18,7 @@ You can build compound components with declarative code.
 Also, it supports type safety as shown in the picture below.
 
 <p align="center">
-  <img src="https://postfiles.pstatic.net/MjAyMzA0MThfMjM1/MDAxNjgxODI5NTM0Mzk0.xDb02_hul7RR9OLRJ8fn9sfnCa1O2YoEWo_LSIGhm0sg.bhWtPajWXNfKMdwTVkyoQLVQ2HIjFIh3CzB0dcdvtZYg.GIF.qq3884qq/ezgif-4-8b3e61defe.gif?type=w773" alt="compound-builder is typesafe" width="600" />
+  <img src="https://postfiles.pstatic.net/MjAyMzA0MThfMjM1/MDAxNjgxODI5NTM0Mzk0.xDb02_hul7RR9OLRJ8fn9sfnCa1O2YoEWo_LSIGhm0sg.bhWtPajWXNfKMdwTVkyoQLVQ2HIjFIh3CzB0dcdvtZYg.GIF.qq3884qq/ezgif-4-8b3e61defe.gif?type=w773" alt="compound-builder is typesafe" width="600" loop="infinite" />
 </p>
 
 <br>
@@ -40,9 +40,8 @@ Also, it supports type safety as shown in the picture below.
 ## Basic example
 
 ```jsx
+import { compoundBuilder } from "compound-builder";
 import constate from "constate";
-
-import { compoundBuilder } from "@/utils/builder";
 
 import useSampleLayout from "./index.hook";
 import { SampleBody, SampleFooter, SampleHeader } from "./index.style";
